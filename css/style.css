@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to left top, #F2CC0F , #8CBF3F,#9453A6, #f2f2f2);
+    background-repeat: no-repeat;
+}
+
+#mobileView {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    #mobileView{
+        display: block;
+        width: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    #carouselExampleCaptions {
+        display: none;
+    }
+}
+
+.container-fluid,
+h5,
+h3 {
+    font-family: 'Henny Penny' !important;
+}
+
+nav { 
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Home */
+
+.carousel-caption {
+    color: #f2f2f2;
+}
+
+.m-3 {
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid #0d0d0d;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #8CBF3F;
+}
+
+.card-link:hover {
+    color: #0d0d0d;
+}
+
+.img-fluid {
+    padding: 10px; 
+    margin: 10px;
+}
+
+/* About */
+
+.h-p { 
+    font-weight: bold;
+}
+
+article {
+    padding: 10px;
+    font-weight: bold;
+}
+
+p img {
+    border-radius: 15px;
+}
+
+.quizButton {
+    justify-content: center;
+    display: flex;
+}
+
+.button { 
+    border-radius: 5px;
+    background-image: linear-gradient(to left top, #f2f2f2 , #8CBF3F,#9453A6, #F2CC0F);
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/* Media */
+
+.photo-gallery {
+    color:#313437;
+}
+  
+.photo-gallery p {
+    color:#7d8285;
+}
+  
+.photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+  
+@media (max-width:767px) {
+    .photo-gallery h5 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+}
+  
+.photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+}
+  
+.photo-gallery .intro p {
+    margin-bottom:0;
+}
+  
+.photo-gallery .photos {
+    padding-bottom:20px;
+}
+  
+.photo-gallery .item {
+    padding-bottom:30px;
+}
+
+
+
+/* FAQ  */
+
+.accordion {
+    margin: 10px;
+}
+
+.faqH {
+    text-align: center;
+}
+
+#firstButton{
+    background-color: #8CBF3F !important;
+}
+
+#secondButton{
+    background-color: #9453A6 !important;
+}
+
+#thirdButton{
+    background-color: #F2CC0F !important;
+}
+
+#fourthButton{
+    background-color: #8CBF3F !important;
+}
+
+#fifthButton{
+    background-color: #9453A6 !important;
+}
+
+#sixthButton{
+    background-color: #8CBF3F !important;
+}
+
+#seventhButton{
+    background-color: #F2CC0F !important;
+}
+
+#eighthButton{
+    background-color: #9453A6 !important;
+}
+
+#ninthButton{
+    background-color: #8CBF3F !important;
+}
+
+/* Contact  */
+
+.map {
+    margin: 30px;
+}
+
+iframe {
+    border-radius: 10px;
+}
